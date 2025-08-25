@@ -3,7 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.14.36310.24 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbConnectionBeforeSingleton", "DbConnectionBeforeSingleton\DbConnectionBeforeSingleton.csproj", "{AC41EDC1-B260-4C13-84DF-CFE7B1B2570E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbConnectionAfterSingleton", "DbConnectionAfterSingleton\DbConnectionAfterSingleton.csproj", "{A4471B42-2010-41DA-B8DD-C5FBE45BB3EB}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC41EDC1-B260-4C13-84DF-CFE7B1B2570E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC41EDC1-B260-4C13-84DF-CFE7B1B2570E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC41EDC1-B260-4C13-84DF-CFE7B1B2570E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC41EDC1-B260-4C13-84DF-CFE7B1B2570E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4471B42-2010-41DA-B8DD-C5FBE45BB3EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4471B42-2010-41DA-B8DD-C5FBE45BB3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4471B42-2010-41DA-B8DD-C5FBE45BB3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4471B42-2010-41DA-B8DD-C5FBE45BB3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
