@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbConnectionBeforeSingleton
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbConnectionAfterSingleton", "DbConnectionAfterSingleton\DbConnectionAfterSingleton.csproj", "{A4471B42-2010-41DA-B8DD-C5FBE45BB3EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifcationSystemBeforeFactoryDP", "NotifcationSystemBeforeFactoryDP\NotifcationSystemBeforeFactoryDP.csproj", "{464F003A-3B41-4164-A3D6-B12EC12BB3FE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifcationSystemAfterFactoryDp", "NotifcationSystemAfterFactoryDp\NotifcationSystemAfterFactoryDp.csproj", "{6383A616-8467-4752-81A0-C43447933DDC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{A4471B42-2010-41DA-B8DD-C5FBE45BB3EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A4471B42-2010-41DA-B8DD-C5FBE45BB3EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A4471B42-2010-41DA-B8DD-C5FBE45BB3EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{464F003A-3B41-4164-A3D6-B12EC12BB3FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{464F003A-3B41-4164-A3D6-B12EC12BB3FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{464F003A-3B41-4164-A3D6-B12EC12BB3FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{464F003A-3B41-4164-A3D6-B12EC12BB3FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6383A616-8467-4752-81A0-C43447933DDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6383A616-8467-4752-81A0-C43447933DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6383A616-8467-4752-81A0-C43447933DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6383A616-8467-4752-81A0-C43447933DDC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

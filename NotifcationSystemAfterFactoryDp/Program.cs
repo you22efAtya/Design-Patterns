@@ -1,0 +1,17 @@
+﻿namespace NotifcationSystemAfterFactoryDp
+{
+    internal class Program
+    {
+        static void Main(string[] args)
+        {
+
+            Console.WriteLine("Enter notification type (sms/email): ");
+            var notificationType = Console.ReadLine();
+            Console.WriteLine("Enter message to send: ");
+
+            var message = Console.ReadLine();
+            var notification = NotificationFactory.CreateNotification(notificationType);
+            notification.Notify(message);
+        }
+    }
+}
