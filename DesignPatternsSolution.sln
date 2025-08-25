@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifcationSystemBeforeFact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotifcationSystemAfterFactoryDp", "NotifcationSystemAfterFactoryDp\NotifcationSystemAfterFactoryDp.csproj", "{6383A616-8467-4752-81A0-C43447933DDC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystemBeforeAdapter", "PaymentSystemBeforeAdapter\PaymentSystemBeforeAdapter.csproj", "{DA264143-708E-45FB-A5C4-5B708E0E449A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystemAfterAdapter", "PaymentSystemAfterAdapter\PaymentSystemAfterAdapter.csproj", "{8C5C4293-9417-41F4-9203-196B00746565}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{6383A616-8467-4752-81A0-C43447933DDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6383A616-8467-4752-81A0-C43447933DDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6383A616-8467-4752-81A0-C43447933DDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA264143-708E-45FB-A5C4-5B708E0E449A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA264143-708E-45FB-A5C4-5B708E0E449A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA264143-708E-45FB-A5C4-5B708E0E449A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA264143-708E-45FB-A5C4-5B708E0E449A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8C5C4293-9417-41F4-9203-196B00746565}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C5C4293-9417-41F4-9203-196B00746565}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C5C4293-9417-41F4-9203-196B00746565}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C5C4293-9417-41F4-9203-196B00746565}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
