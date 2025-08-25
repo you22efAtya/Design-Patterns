@@ -15,6 +15,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystemBeforeAdapter"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PaymentSystemAfterAdapter", "PaymentSystemAfterAdapter\PaymentSystemAfterAdapter.csproj", "{8C5C4293-9417-41F4-9203-196B00746565}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingSystemBeforeStrategy", "SortingSystemBeforeStrategy\SortingSystemBeforeStrategy.csproj", "{F7F53630-FB89-48CE-82D3-99B6F03F54B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SortingSystemAfterStrategy", "SortingSystemAfterStrategy\SortingSystemAfterStrategy.csproj", "{1F17D433-7D2D-44BD-804E-28398F6F050E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +49,14 @@ Global
 		{8C5C4293-9417-41F4-9203-196B00746565}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C5C4293-9417-41F4-9203-196B00746565}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C5C4293-9417-41F4-9203-196B00746565}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7F53630-FB89-48CE-82D3-99B6F03F54B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7F53630-FB89-48CE-82D3-99B6F03F54B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7F53630-FB89-48CE-82D3-99B6F03F54B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7F53630-FB89-48CE-82D3-99B6F03F54B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F17D433-7D2D-44BD-804E-28398F6F050E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F17D433-7D2D-44BD-804E-28398F6F050E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F17D433-7D2D-44BD-804E-28398F6F050E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F17D433-7D2D-44BD-804E-28398F6F050E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
